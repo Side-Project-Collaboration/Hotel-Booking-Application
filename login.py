@@ -14,6 +14,9 @@ def info_split(data):
 
 
 def user_info(file_data):
+    '''Add file data to a dictionay, key: username, value: email address,
+    return dictionary.
+    '''
 
     user_details = {}
 
@@ -29,6 +32,9 @@ def user_info(file_data):
 
 
 def main():
+    '''Check if user input is in the dictionary (data from text file)
+    in order for user to login.
+    '''
 
     file_data = open_file()
 
